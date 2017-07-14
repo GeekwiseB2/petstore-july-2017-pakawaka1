@@ -1,0 +1,35 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+/*Global styles*/
+
+/*Header Styles*/
+.logo-img {
+  height: 70px;
+}
+
+.logo-text {
+  font-family: 'Satisfy', cursive;
+  color: #F2767E; /*orange/pink highlight*/
+}
+
+/*Jumbotron Styles*/
+
+.jumbotron {
+  background-image: url('../img/hero.jpg');
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-text {
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+/*Products Styles*/
+.thumbnail {
+  background-color: #EDF1F4;
+  padding: 7.5px;
+
+}
