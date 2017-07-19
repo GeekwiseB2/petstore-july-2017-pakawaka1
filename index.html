@@ -10,13 +10,17 @@
 </head>
 <body>
 	<header class="container">
-		<img src="img/petstore_logo.png" alt="Logo" class="img-responsive logo-img pull-left">
-		<h1 class="logo-text">Pet Store</h1>
-		<ul class="nav nav-pills pull-right">
-  		<li role="presentation"><a href="#">Home</a></li>
-			<li role="presentation"><a href="#">Products</a></li>
-  		<li role="presentation"><a href="#">Contact Us</a></li>
-		</ul>
+		<div class="flex"> <!--Display flex begins-->
+			<div class="logo-wrapper">
+				<img src="img/petstore_logo.png" alt="Logo" class="img-responsive logo-img pull-left">
+				<h1 class="logo-text">Pet Store</h1>
+			</div>
+				<ul class="nav nav-pills pull-right">
+	  			<li role="presentation"><a href="#">Home</a></li>
+					<li role="presentation"><a href="#">Products</a></li>
+	  			<li role="presentation"><a href="#">Contact Us</a></li>
+				</ul>
+		</div><!--display flex ends-->
 	</header>
 	<!--Hero Section Begins-->
 	<div class="jumbotron">
@@ -64,7 +68,7 @@
 						<img src="img/product3.jpg" alt="Product 3">
 							<div class="caption">
 								<h3>Parrot Stuff</h3>
-								<p>The best stuf for your parrot.</p>
+								<p>The best stuff for your parrot.</p>
 								<p><a href="#" class="btn btn-info btn-xs" role="button">Purchase Now</a></p>
 							</div>
 						</div>
@@ -76,16 +80,42 @@
 		<div class="col-sm-3 col-sm-offset-1 text-center"><!--Services Begins-->
 			<h1 class="text-uppercase">Services</h1>
 			<ul class="nav nav-pills nav-stacked">
-			  <li role="presentation"><a href="#">Adopt a Cat</a></li>
+			  <li role="presentation"><a href="#">ADOPT A CAT</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-				<li role="presentation"><a href="#">Adopt a Dog</a></li>
+				<li role="presentation"><a href="#">ADOPT A DOG</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-				<li role="presentation"><a href="#">Adopt a Fish</a></li>
+				<li role="presentation"><a href="#">ADOPT A FISH</a></li>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
 			</ul>
 		</div><!--Services Ends-->
 	</div>
-</div>
+<!--Footer begins-->
+<footer class="container-fluid ">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<img src="img/petstore_logo.png" alt="Logo" class="img-responsive logo-img">
+			</div>
+			<div class="col-sm-3 address-border">
+				<address>
+					Pet Store<br>
+					Fresno, CA<br>
+					<a href="mailto:info@petstore.com">info@petstore.com</a>
+				</address>
+			</div>
+			<div class="col-sm-3">
+				<a href="#"class="dis-block"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+				<a href="#"class="dis-block"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+				<a href="#"class="dis-block"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 text-center copyright">&copy; Petstore Inc., All Rights Reserved.</div>
+		</div>
+	</div>
+</footer>
+<!--Foooter ends-->
+
 <!-- scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
